@@ -1,0 +1,84 @@
+# -----------------------
+# OS
+# -----------------------
+.DS_Store
+
+# -----------------------
+# Node
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -----------------------
+# React Native / Metro
+# -----------------------
+.expo/
+.expo-shared/
+.metro-health-check*
+*.jsbundle
+
+# -----------------------
+# Android
+# -----------------------
+android/.gradle/
+android/app/build/
+android/build/
+.gradle/
+local.properties
+*.keystore
+*.hprof
+.cxx/
+
+# APK / AAB outputs
+*.apk
+*.aab
+
+# Android environment builds
+/android/app/development/
+/android/app/staging/
+/android/app/prod/
+/android/app/local/
+
+# -----------------------
+# iOS
+# -----------------------
+ios/Pods/
+ios/build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+ios/.xcode.env.local
+
+# -----------------------
+# IDE
+# -----------------------
+.idea/
+*.iml
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+
+# -----------------------
+# Testing
+# -----------------------
+coverage/
+
+# -----------------------
+# Fastlane
+# -----------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# -----------------------
+# Misc
+# -----------------------
+*.tgz
+*.zip
+.codegpt
